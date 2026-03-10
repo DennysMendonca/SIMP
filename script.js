@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const comarcas = [
         "Açailândia", "Bacabal", "Balsas", "Barra do Corda", "Caxias", "Chapadinha", 
         "Codó", "Grajaú", "Imperatriz", "Itapecuru-Mirim", "Paço do Lumiar", 
-        "Pinheiro", "Presidente Dutra", "Santa Inês", "São José de Ribamar", 
+        "Pinheiro", "Presidente Dutra", "Santa Inês", "São José de Ribamar", "São Vicente Férrer", "São Bento", "São João Batista", "Santa Rita", 
         "São Luís", "Timon", "Viana", "Zé Doca"
     ];
 
