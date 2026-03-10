@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cadastro de Usuário - SIMP</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <h2>Sistema SIMP</h2>
+        <p>Cadastro de Novo Usuário</p>
+    </div>
+
+    <form id="simpForm" novalidate>
+        <div class="form-group">
+            <label for="nome">Nome Completo</label>
+            <input type="text" id="nome" name="nome" placeholder="Digite apenas letras">
+            <span class="error-text">O nome é obrigatório e não deve conter números.</span>
+        </div>
+
+        <div class="form-group">
+            <label for="cpf">CPF</label>
+            <input type="text" id="cpf" name="cpf" placeholder="000.000.000-00" maxlength="14">
+            <span class="error-text">Informe um CPF válido.</span>
+        </div>
+
+        <div class="form-group">
+            <label for="login">Login</label>
+            <input type="text" id="login" name="login" placeholder="ex: joaosilva">
+            <span class="error-text">O login deve ter apenas letras minúsculas.</span>
+        </div>
+
+        <div class="form-group">
+            <label for="email">E-mail</label>
+            <input type="email" id="email" name="email" placeholder="nome@exemplo.com">
+            <span class="error-text">Insira um e-mail válido.</span>
+        </div>
+
+        <div class="form-group">
+            <label for="cargo">Cargo</label>
+            <select id="cargo" name="cargo">
+                <option value="">Selecione o cargo...</option>
+                <option value="Promotor de Justiça">Promotor de Justiça</option>
+                <option value="Servidor">Servidor</option>
+                <option value="Terceirizado">Terceirizado</option>
+                <option value="Residente">Residente</option>
+                <option value="Cedido">Cedido</option>
+            </select>
+            <span class="error-text">Selecione um cargo.</span>
+        </div>
+
+        <div class="form-group">
+            <label for="lotacao">Lotação (Comarcas do MA)</label>
+            <select id="lotacao" name="lotacao">
+                <option value="">Selecione a Comarca...</option>
+                </select>
+            <span class="error-text">Selecione uma comarca válida.</span>
+        </div>
+
+        <button type="submit" id="btnCadastrar">CADASTRAR</button>
+    </form>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
