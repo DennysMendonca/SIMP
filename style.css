@@ -1,0 +1,90 @@
+:root {
+    --primary: #003366;
+    --secondary: #f4f7f6;
+    --error: #e74c3c;
+    --success: #2ecc71;
+    --text: #333;
+}
+
+body {
+    background-color: var(--secondary);
+    font-family: 'Segoe UI', Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    padding: 40px 20px;
+    margin: 0;
+}
+
+.container {
+    background: #fff;
+    width: 100%;
+    max-width: 450px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+
+.header {
+    text-align: center;
+    border-bottom: 2px solid var(--secondary);
+    margin-bottom: 25px;
+    padding-bottom: 10px;
+}
+
+.header h2 {
+    color: var(--primary);
+    margin: 0;
+}
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+label {
+    display: block;
+    font-size: 14px;
+    font-weight: 600;
+    margin-bottom: 6px;
+    color: var(--text);
+}
+
+input, select {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #ddd;
+    border-radius: 6px;
+    font-size: 15px;
+    transition: all 0.3s ease;
+    box-sizing: border-box;
+}
+
+/* Destaque de Erro solicitado */
+input.field-error, select.field-error {
+    border: 2px solid var(--error);
+    background-color: #fff9f9;
+}
+
+.error-text {
+    color: var(--error);
+    font-size: 12px;
+    margin-top: 5px;
+    display: none; /* Escondido por padrão */
+}
+
+button {
+    width: 100%;
+    background-color: var(--primary);
+    color: white;
+    padding: 14px;
+    border: none;
+    border-radius: 6px;
+    font-weight: bold;
+    font-size: 16px;
+    cursor: pointer;
+    margin-top: 10px;
+    transition: filter 0.2s;
+}
+
+button:hover {
+    filter: brightness(1.2);
+}
