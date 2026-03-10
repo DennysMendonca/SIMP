@@ -17,7 +17,7 @@
 
 body {
     font-family: 'Segoe UI', Arial, sans-serif;
-    background-image: url('https://media.licdn.com/dms/image/v2/D4D12AQETAA7KeRSVqg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1694455016767?e=2147483647&v=beta&t=iXqANdgP1VQa8iyo6Gk8zT18ZtKiQtYHHkb73MSW2Yg'); /* Nome do seu arquivo de imagem */'); /* Nome do seu arquivo de imagem */
+    background-image: url('https://media.licdn.com/dms/image/v2/D4D12AQETAA7KeRSVqg/article-cover_image-shrink_600_2000/article-cover_image-shrink_600_2000/0/1694455016767?e=2147483647&v=beta&t=iXqANdgP1VQa8iyo6Gk8zT18ZtKiQtYHHkb73MSW2Yg'); /* Nome do seu arquivo de imagem');*/ /* Nome do seu arquivo de imagem */
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
