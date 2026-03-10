@@ -6,19 +6,19 @@
     --text: #333;
 }
 
-body {
+/*body {
     background: linear-gradient(120deg, #6e6eff, #347ce8);
     font-family: 'Segoe UI', Verdana, Geneva, Tahoma, sans-serif;
     display: flex;
     justify-content: center;
     padding: 40px 20px;
     margin: 0;
-}
+}*/
 
-/*body {
+body {
     font-family: 'Segoe UI', Arial, sans-serif;
     background-image: url('https://www.dentalarteclinicas.com.br/wp-content/uploads/2025/02/DentalArte_Editavel_Unidades_Cachoeirinha_Cachoeirinha.webp'); /* Nome do seu arquivo de imagem */
-    /*background-size: cover;
+    background-size: cover;
     background-position: center;
     background-attachment: fixed;
     margin: 0;
@@ -27,7 +27,7 @@ body {
     flex-direction: column;
     align-items: center;
     min-height: 100vh;
-}*/
+}
 
 
 
